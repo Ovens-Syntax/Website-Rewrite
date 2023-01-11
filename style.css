@@ -12,6 +12,9 @@ border-width: 1px;
 border-bottom-style: solid;
 }
 
+.top-pad {
+padding-top: 50px;
+}
 
 /* misc css */
 
@@ -94,13 +97,11 @@ border-bottom-style: solid;
   /* Control the left side */
   .left {
     left: 0;
-    background-color: #111;
   }
   
   /* Control the right side */
   .right {
     right: 0;
-    background-color: red;
   }
   
   /* If you want the content centered horizontally and vertically */
@@ -119,3 +120,16 @@ border-bottom-style: solid;
   } 
 /* css for split layout */
 
+/* css for grid layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 1%;
+}
+/* css for grid layout */
+ 
