@@ -1,7 +1,35 @@
 /* misc css */
-img {
+.img1 {
 width: 100%;
 height: auto;
+}
+
+.profile-container {
+  display: block;
+  margin-top: 2.5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+  padding: 2.5%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  position: relative;
+}
+
+.pfp {
+  display: block;
+  margin: auto;
+  max-width: 457.5px;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.icon-container {
+  padding-top: 5%;
+  text-align: center;
 }
 
 .vertical-split {
@@ -21,7 +49,7 @@ padding-top: 50px;
 /* css for navigation bar */
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
   }
   
@@ -45,6 +73,7 @@ padding-top: 50px;
     border: none;
     outline: none;
     color: white;
+    background-color: black;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
@@ -52,7 +81,8 @@ padding-top: 50px;
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
-    background-color: red;
+    color: black;
+    background-color: rgb(255, 255, 255);
   }
   
   .dropdown-content {
