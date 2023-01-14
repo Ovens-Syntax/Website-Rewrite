@@ -15,6 +15,8 @@ height: auto;
   border-style: solid;
   border-width: 5px;
   border-color: black;
+  background-color: rosybrown;
+  cursor: pointer;
   position: relative;
 }
 
@@ -25,11 +27,49 @@ height: auto;
   width: 100%;
   height: auto;
   border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+}
+
+.post-img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
 }
 
 .icon-container {
   padding-top: 5%;
   text-align: center;
+}
+
+.post-container {
+  display: block;
+  margin-top: 2.5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+  padding: 2.5%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  background-color: rosybrown;
+  cursor: pointer;
+  position: relative;
+}
+
+.container-link {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .vertical-split {
