@@ -14,13 +14,13 @@
         <a href="main.html">Home</a>
         <a href="#news">News</a>
         <div class="dropdown">
-        <button class="dropbtn" onclick="myFunction()">Commtech
-          <i class="fa fa-caret-down"></i>
-        </button>
+        <button class="dropbtn" onclick="myFunction()">Commtech</button>
         <div class="dropdown-content" id="myDropdown">
           <a href="allaboutmeposter.html">All About Me Poster</a>
           <a href="positivevibeposter.html">Positive Vibe Poster</a>
           <a href="magazinecover.html">Magazine Cover</a>
+        </div>
+          </div>
         </div>
         </div> 
       </div>
@@ -28,23 +28,41 @@
 <div class="profile-container">
 <h1> Ovens-Syntax </h1>
 <img class="pfp "src="https://cdn.fosstodon.org/media_attachments/files/109/682/877/926/943/511/original/3c1cc3fd7a510e18.png" alt="therealsteamoven">
+<div class="profile-bottom-content">
+<button class="school-btn" onclick="toggleSchool()">e</button>
 <div class="icon-container">
-<a href="https://fosstodon.org/@oven"><img height="32" width="32" src="src/mastodon.svg" /></a>
+<a rel="me" href="https://fosstodon.org/@oven"><img height="32" width="32" src="src/mastodon.svg"/></a>
 <img height="32" width="32" src="src/tutanota.svg"/>
 <img height="32" width="32" src="src/github.svg" />
 </div>
+<button class="personal-btn"onclick="togglePersonal()">e2</button>
+</div>
 </div>
 
-<div class="post-container">
+<div class="post-container-school">
+  <a href="magazinecover.html">
+    <span class="container-link"></span>
+  </a>
   <h2>magazine cover</h2>
+  <img class="post-img" src="src/magazinecover-src/MagazineCover.png" alt="magazinecoverimage">
 </div>
 
-<div class="post-container">
+<div class="post-container-school">
+  <a href="positivevibeposter.html">
+    <span class="container-link"></span>
+    </a>
   <h2>good vibe poster</h2>
-  
+  <div class="row">
+  <div class="column">
+    <img class="post-img" src="src/positivevibeposter-src/EatPizza.PNG" alt="allaboutmeposterimage"> 
+  </div>
+  <div class="column">
+    <img class="post-img" src="src/positivevibeposter-src/DrinkCoffee.PNG" alt="positivevibeposterimage">
+  </div>
+  </div>
 </div>
 
-<div class="post-container">
+<div class="post-container-school">
   <a href="allaboutmeposter.html">
     <span class="container-link"></span>
   </a>
@@ -52,7 +70,7 @@
   <img class="post-img" src="src/allaboutmeposter-src/Final-AAM-Poster.png" alt="allaboutmeposterimage">
 </div>   
 
-<div class="post-container">
+<div class="post-container-personal">
 <h2>test post</h2>
 <p> 
   lmao lmao lmao lmao lmao lmao lmao lmao lmao lmao

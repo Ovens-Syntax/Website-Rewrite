@@ -3,7 +3,7 @@ toggle between hiding and showing the dropdown content */
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
   }
-  
+
   // Close the dropdown if the user clicks outside of it
   window.onclick = function(e) {
     if (!e.target.matches('.dropbtn')) {
@@ -13,3 +13,18 @@ function myFunction() {
       }
     }
   }
+
+  window.addEventListener("load", function() 
+  {
+
+console.log(document.querySelectorAll('.post-container-school').classList);
+console.log(document.querySelectorAll('.post-container-personal').classList);
+
+function toggleSchool() {
+  document.querySelectorAll('.post-container-school').classList.toggle("show");
+}
+
+function togglePersonal() {
+  document.querySelectorAll('.post-container-personal').classList.toggle("show");
+}
+});
