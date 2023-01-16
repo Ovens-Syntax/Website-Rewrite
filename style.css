@@ -48,20 +48,15 @@ height: auto;
   padding-top: 5%;
 }
 
-.school-btn {
-  border-style: solid;
-  border-width: 5px;
-  border-color: black;
-  width: 25%;
-  text-align: left;
-}
+.btn {
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    width: 25%;
+  }
 
-.personal-btn {
-  border-style: solid;
-  border-width: 5px;
-  border-color: black;
-  width: 25%;
-  text-align: right;
+.btn-toggled {
+    background-color: rosybrown;
 }
 
 .icon-container {

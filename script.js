@@ -15,6 +15,7 @@ function myFunction() {
   }
 
 function toggleSchool() {
+    document.getElementById("school-btn").classList.toggle("btn-toggled")
     var elems = document.querySelectorAll(".post-container-school");
     var index = 0, length = elems.length;
     for ( ; index < length; index++) {
@@ -23,6 +24,7 @@ function toggleSchool() {
 }
 
 function togglePersonal() {
+    document.getElementById("personal-btn").classList.toggle("btn-toggled")
     var elems = document.querySelectorAll(".post-container-personal");
     var index = 0, length = elems.length;
     for ( ; index < length; index++) {
