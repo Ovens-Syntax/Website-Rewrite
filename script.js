@@ -14,17 +14,18 @@ function myFunction() {
     }
   }
 
-  window.addEventListener("load", function() 
-  {
-
-console.log(document.querySelectorAll('.post-container-school').classList);
-console.log(document.querySelectorAll('.post-container-personal').classList);
-
 function toggleSchool() {
-  document.querySelectorAll('.post-container-school').classList.toggle("show");
+    var elems = document.querySelectorAll(".post-container-school");
+    var index = 0, length = elems.length;
+    for ( ; index < length; index++) {
+        elems[index].classList.toggle("show");
+    }
 }
 
 function togglePersonal() {
-  document.querySelectorAll('.post-container-personal').classList.toggle("show");
+    var elems = document.querySelectorAll(".post-container-personal");
+    var index = 0, length = elems.length;
+    for ( ; index < length; index++) {
+        elems[index].classList.toggle("show");
+    }
 }
-});
