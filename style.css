@@ -1,7 +1,53 @@
 /* misc css */
+@font-face {
+  font-family: 'alagard';
+  src: url('src/alagard.ttf');
+}
+
+@font-face {
+  font-family: 'slkscrb';
+  src: url('src/silkscreen/slkscrb.ttf');
+}
+
+@font-face {
+  font-family: 'slkscreb';
+  src: url('src/silkscreen/slkscreb.ttf');
+}
+
+@font-face {
+  font-family: 'slkscre';
+  src: url('src/silkscreen/slkscre.ttf');
+}
+
+@font-face {
+  font-family: 'slkscr';
+  src: url('src/silkscreen/slkscr.ttf');
+}
+
+@font-face {
+  font-family: 'rainyhearts';
+  src: url('src/rainyhearts.ttf');
+}
+
+@font-face {
+  font-family: 'Archery-Black';
+  src: url('src/SF-Archery-Black/SF_Archery_Black.ttf');
+}
+
+@font-face {
+  font-family: 'FiraCode-Meduim';
+  src: url('src/Fira_Code_v6.2/ttf/FiraCode-Medium.ttf');
+}
+
+body {
+background-image: url("src/animatedwal1.gif");
+background-size: cover;
+font-family: FiraCode-Meduim;
+}
+
 .img1 {
-width: 100%;
-height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .profile-container {
